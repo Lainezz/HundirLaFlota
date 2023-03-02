@@ -78,10 +78,10 @@ public class Principal {
 		}
 
 		// Creamos objetos de tipo Barco para meter en el tablero
-		Barco lancha = new Barco("Lancha", 'L', 1);
-		Barco buque = new Barco("Buque", 'B', 3);
-		Barco acorazado = new Barco("Acorazado", 'Z', 4);
-		Barco portaAviones = new Barco("PortaAviones", 'P', 5);
+		Barco lancha = new Barco('L');
+		Barco buque = new Barco('B');
+		Barco acorazado = new Barco('Z');
+		Barco portaAviones = new Barco('P');
 
 		//Calculamos el numero de posiciones a derribar
 		nPosiciones = nPosiciones +
